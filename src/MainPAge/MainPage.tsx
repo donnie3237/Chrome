@@ -1,7 +1,7 @@
 import { createSignal ,createEffect } from "solid-js";
 import toast from "solid-toast";
 import './mp.scss'
-import plogo from '../assets/img/plogo.jfif'
+import plogo from '../assets/img/headlogo.png'
 import logo from '../assets/img/logo.png'
 import github from '../assets/img/giithub.png'
 import gpt from '../assets/img/AI.jfif'
@@ -240,11 +240,11 @@ function MainPage() {
                         </div>
                         <div class="el">
                         <img src={nf} alt="" />
-                            <a href="https://www.netlify.com/">Netlify</a>
+                            <a href="https://www.netlify.com/" target='_blank'>Netlify</a>
                         </div>
                         <div class="el">
                         <img src={dose} alt="" />
-                            <a href="">DosE</a>
+                            <a href="https://dose-products.netlify.app/" target='_blank'>DosE</a>
                         </div>
                     </div>
                 </div>
